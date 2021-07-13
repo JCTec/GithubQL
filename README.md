@@ -24,7 +24,7 @@ Due to time restrictions there are several things that can be later improve in t
 The only other library in the project will be the SDWebImageSwiftUI that handles the async image download, to save up quite some time and plus its core which is written in Objective-C is trusted by several companies.
 
 ## CI Environment:
-The `GITHUB_TOKEN` can be removed to set up an static Github Token.
+The `GITHUB_TOKEN` can be removed to set up a static Github Token.
 Or even easier, you could use the environment variables to pass it on.
 Just go to GithubQL -> Edit Scheme -> Environment Variables and set
 the value of `GITHUB_TOKEN`.
