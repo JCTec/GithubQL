@@ -1,0 +1,28 @@
+fragment OwnerInfo on RepositoryOwner {
+    login
+    avatarUrl
+}
+
+fragment RepositoryParts on Repository {
+    name
+    url
+    stargazerCount
+    owner {
+        ...OwnerInfo
+    }
+}
+
+query Search($afterCursor: String = "Y3Vyc29yOjA=") {
+    search(
+        type: REPOSITORY,
+        query: "graphql in:name,description,readme",
+        after: $afterCursor,
+        first:10
+    ) {
+        repo: edges {
+            repo: node {
+                ...RepositoryParts
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+disabled_rules: # rule identifiers to exclude from running
+ - trailing_whitespace
+ - switch_case_alignment
+ - line_length
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+ - Pods
+ - GithubQL/Models/GraphQL/Schema/API.swift

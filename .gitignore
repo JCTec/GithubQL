@@ -1,0 +1,5 @@
+.DS_Store
+Pods/*
+Podfile.lock
+GithubQL.xcodeproj/xcuserdata/*
+GithubQL.xcodeproj/xcshareddata/xcschemes/*
