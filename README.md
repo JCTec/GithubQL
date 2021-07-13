@@ -8,7 +8,7 @@ The first entrance of the App is in the SceneDelegate that generates a Session V
 The Session View has a callback that triggers a change in the Scene delegate to the Home View once the validation process happens.
 
 ## Home View
-The Home View is a simple list view that loads the Github Repositories into the view, it has a Infinite Scroll Build into the View.
+The Home View is a simple list view that loads the Github Repositories into the view, it has a Infinite Scroll Build into the View. note the use of SafeVStack instead of LazyVStack, this is my own implementation of a LazyVStack Compatible with iOS 13 (Not really in terms of performance but keeps the code clean).
 
 ## TODO's 
 Due to time restrictions there are several things that can be later improve in this project, in between them are:
@@ -31,5 +31,5 @@ the value of `GITHUB_TOKEN`.
 
 ## SwiftUI Extensions:
 In the project I included various SwiftUI Extension Snippets that are used across the project, such as `ActivityIndicator`, `RetryButton`, `SafeVStack` and `IgnoringSafeArea` 
-Follow me on twitter for more Snippets like this ones.
+Follow me on twitter for more Snippets like these ones.
 <a href="https://twitter.com/JC_Tec_">@JC_Tec_</a>
