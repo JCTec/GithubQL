@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03D5BFA7D2D525B9DAAA35B1 /* Pods_GithubQLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A87896EF37510C254C68458 /* Pods_GithubQLTests.framework */; };
 		0AF6459DEAEDDA6B95F38C51 /* Pods_GithubQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF83137915002D61F375587 /* Pods_GithubQL.framework */; };
+		495FF7F226A0F9F9008F35D2 /* CenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FF7F126A0F9F9008F35D2 /* CenterView.swift */; };
 		4961BE6D269C871A00F130D0 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 4961BE6C269C871A00F130D0 /* schema.json */; };
 		49A14BCC269D5AF100F138E9 /* SafeVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A14BCB269D5AF100F138E9 /* SafeVStack.swift */; };
 		49A14BCE269D5B6500F138E9 /* IgnoringSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A14BCD269D5B6500F138E9 /* IgnoringSafeArea.swift */; };
@@ -61,6 +62,7 @@
 		20454ED746332068624B1F24 /* Pods-GithubQL-GithubQLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubQL-GithubQLUITests.release.xcconfig"; path = "Target Support Files/Pods-GithubQL-GithubQLUITests/Pods-GithubQL-GithubQLUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2578A0BC3702A0CD0883C522 /* Pods-GithubQLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubQLTests.debug.xcconfig"; path = "Target Support Files/Pods-GithubQLTests/Pods-GithubQLTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A87896EF37510C254C68458 /* Pods_GithubQLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubQLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		495FF7F126A0F9F9008F35D2 /* CenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterView.swift; sourceTree = "<group>"; };
 		4961BE6C269C871A00F130D0 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		49A14BCB269D5AF100F138E9 /* SafeVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeVStack.swift; sourceTree = "<group>"; };
 		49A14BCD269D5B6500F138E9 /* IgnoringSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoringSafeArea.swift; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 				49F4BB9A269D059D00A8E202 /* Colors.swift */,
 				49A14BCB269D5AF100F138E9 /* SafeVStack.swift */,
 				49A14BCD269D5B6500F138E9 /* IgnoringSafeArea.swift */,
+				495FF7F126A0F9F9008F35D2 /* CenterView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -627,6 +630,7 @@
 				49DD563F269C7CE0001BDA85 /* AppDelegate.swift in Sources */,
 				49F4BB9B269D059D00A8E202 /* Colors.swift in Sources */,
 				49F4BB9E269D0C3C00A8E202 /* HomeViewModel.swift in Sources */,
+				495FF7F226A0F9F9008F35D2 /* CenterView.swift in Sources */,
 				49DD5641269C7CE0001BDA85 /* SceneDelegate.swift in Sources */,
 				49A14BCC269D5AF100F138E9 /* SafeVStack.swift in Sources */,
 				49F4BB99269CFEDD00A8E202 /* RetryButton.swift in Sources */,

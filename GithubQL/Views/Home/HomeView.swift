@@ -49,16 +49,12 @@ struct HomeView: View {
                             }
                         }
                         
-                        HStack {
-                            Spacer()
-                            
+                        CenterView {
                             ActivityIndicator(
                                 $viewModel.isLoading,
                                 style: .medium,
                                 color: .label
                             )
-                            
-                            Spacer()
                         }.padding(.top, 20.0)
                     }
                 }
